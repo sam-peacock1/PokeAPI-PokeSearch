@@ -1,6 +1,7 @@
 # This is the main flask server
 from flask import Flask
 from dotenv import load_dotenv
+from poke_api import pokemon
 import os
 # Load environment variables from .env file
 load_dotenv()
@@ -14,6 +15,10 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return 'Hello PokeAPI!'
+
+@app.route('/pokemon/<name>')
+def get_pokemon(name):
+    pass
 
 if __name__ == '__main__':
     app.run(host=host, port=port)
