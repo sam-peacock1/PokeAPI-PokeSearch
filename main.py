@@ -18,7 +18,9 @@ def index():
 @app.route('/pokemon')
 def get_pokemon():
     name = request.args.get('pokemon')
-    print(name)
+    if name is None:
+        return render_template('index.html')
+    name = name.title()
     return render_template('pokemon.html', name=name)
 
 if __name__ == '__main__':
