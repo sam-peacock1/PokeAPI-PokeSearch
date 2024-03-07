@@ -1,7 +1,6 @@
 # This is the main flask server
-from flask import Flask
 from dotenv import load_dotenv
-from poke_api import pokemon
+from flask import Flask, render_template, request
 import os
 # Load environment variables from .env file
 load_dotenv()
@@ -13,12 +12,14 @@ port = os.getenv('PORT')
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-    return 'Hello PokeAPI!'
+def index():
+    return render_template('index.html')
 
-@app.route('/pokemon/<name>')
-def get_pokemon(name):
-    pass
+@app.route('/pokemon')
+def get_pokemon():
+    name = request.args.get('pokemon')
+    print(name)
+    return render_template('pokemon.html', name=name)
 
 if __name__ == '__main__':
     app.run(host=host, port=port)
