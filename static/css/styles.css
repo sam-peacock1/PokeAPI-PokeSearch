@@ -1,0 +1,81 @@
+body {
+    background: rgb(255,236,57);
+    background: linear-gradient(117deg, rgba(255,236,57,1) 0%, rgba(182,166,17,1) 50%, rgba(70,70,70,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 0px #000;
+}
+form input {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+form button:hover {
+    background: #555;
+}
+.searchbox{
+    width: 100%;
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #000;
+
+/*
+background: rgba(255, 255, 255, 0.8);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+*/
+}
