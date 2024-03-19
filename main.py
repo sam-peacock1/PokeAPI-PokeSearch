@@ -17,9 +17,11 @@ def index():
 
 @app.route('/pokemon')
 def get_pokemon():
+    # When we search for a pokemon we store the name of the pokemon in the url as a parameter (the bit after the ? in the url)
     name = request.args.get('pokemon')
     if name is None:
         return render_template('index.html')
+    
     name = name.title()
     return render_template('pokemon.html', name=name)
 
