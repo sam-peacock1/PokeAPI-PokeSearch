@@ -8,8 +8,7 @@ class pokemon:
     def __init__(self):
         self.client = pokepy.V2Client()
 
-
-    def get_pokemon_info(pokemon_name):
+def get_pokemon_info(pokemon_name):
         url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name.lower()}"
         response = requests.get(url)
     
@@ -25,15 +24,15 @@ class pokemon:
             return pokemon_info
         else:
             return None
-    #JUST A TEST TO SEE IF SHE WORKS SINCE IMPORT WAS BEING DUMB
-    pokemon_name = input("Enter the Pokémon name: ")
-    pokemon_info = get_pokemon_info(pokemon_name)
+#Bellow is just a test
+pokemon_name = input("Enter the Pokémon name: ")
+pokemon_info = get_pokemon_info(pokemon_name)
 
-    if pokemon_info:
-        print(f"Name: {pokemon_info['name']}")
-        print(f"Height: {pokemon_info['height']}")
-        print(f"Weight: {pokemon_info['weight']}")
-        print(f"Abilities: {', '.join(pokemon_info['abilities'])}")
-        print(f"Types: {', '.join(pokemon_info['types'])}")
-    else:
-        print("Pokémon not found!")
+if pokemon_info:
+    print(f"Name: {pokemon_info['name']}")
+    print(f"Height: {pokemon_info['height']}")
+    print(f"Weight: {pokemon_info['weight']}")
+    print(f"Abilities: {', '.join(pokemon_info['abilities'])}")
+    print(f"Types: {', '.join(pokemon_info['types'])}")
+else:
+    print("Pokémon not found!")
