@@ -2,6 +2,7 @@
 from dotenv import load_dotenv
 from flask import Flask, render_template, request, send_from_directory
 import os
+from poke_api import get_pokemon_info
 # Load environment variables from .env file
 load_dotenv()
 
@@ -31,3 +32,4 @@ def favicon():
 
 if __name__ == '__main__':
     app.run(host=host, port=port, debug=True)
+
