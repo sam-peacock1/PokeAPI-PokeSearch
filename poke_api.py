@@ -24,15 +24,16 @@ def get_pokemon_info(pokemon_name):
             return pokemon_info
         else:
             return None
-#Bellow is just a test
-pokemon_name = input("Enter the Pokémon name: ")
-pokemon_info = get_pokemon_info(pokemon_name)
 
-if pokemon_info:
-    print(f"Name: {pokemon_info['name']}")
-    print(f"Height: {pokemon_info['height']}")
-    print(f"Weight: {pokemon_info['weight']}")
-    print(f"Abilities: {', '.join(pokemon_info['abilities'])}")
-    print(f"Types: {', '.join(pokemon_info['types'])}")
-else:
-    print("Pokémon not found!")
+#Bellow is just a test
+#pokemon_name = input("Enter the Pokémon name: ")
+#pokemon_info = get_pokemon_info(pokemon_name)
+#
+#if pokemon_info:
+#    print(f"Name: {pokemon_info['name']}")
+#    print(f"Height: {pokemon_info['height']}")
+#    print(f"Weight: {pokemon_info['weight']}")
+#    print(f"Abilities: {', '.join(pokemon_info['abilities'])}")
+#    print(f"Types: {', '.join(pokemon_info['types'])}")
+#else:
+#    print("Pokémon not found!")
