@@ -1,6 +1,6 @@
 # This is the main flask server
 from dotenv import load_dotenv
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 import os
 # Load environment variables from .env file
 load_dotenv()
@@ -25,5 +25,9 @@ def get_pokemon():
     name = name.title()
     return render_template('pokemon.html', name=name)
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 if __name__ == '__main__':
-    app.run(host=host, port=port)
+    app.run(host=host, port=port, debug=True)
