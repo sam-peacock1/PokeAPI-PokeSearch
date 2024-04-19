@@ -3,3 +3,4 @@ python-dotenv
 pokepy
 requests
 pytest
+urllib3
