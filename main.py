@@ -14,7 +14,7 @@ port = os.getenv('PORT')
 if host == None:
     host = '127.0.0.1'
 if port == None:
-    port = 5000
+    port = '5000'
 
 app = Flask(__name__)
 
