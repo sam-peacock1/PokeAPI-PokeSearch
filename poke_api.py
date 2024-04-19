@@ -1,12 +1,12 @@
-import pokepy
+#import pokepy
 import json
 import requests
 
 
 
-class pokemon:
-    def __init__(self):
-        self.client = pokepy.V2Client()
+#class pokemon:
+#    def __init__(self):
+#        self.client = pokepy.V2Client()
 
 def get_pokemon_info(pokemon_name):
         url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name.lower()}"
