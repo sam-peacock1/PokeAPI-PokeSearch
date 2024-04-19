@@ -1,7 +1,6 @@
 import pytest
 from poke_api import *
 import requests
-from main import host, port
 
 ### Unit Tests
 # Verify the pokeAPI is working
