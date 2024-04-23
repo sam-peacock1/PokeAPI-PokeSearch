@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2024-04-18T18:24:34.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dH40UTUq2fEiUqlh_uvy" version="24.2.5" type="google">
+  <diagram name="Page-1" id="I1JcW_PcEzsIsgrF8o77">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-1" value="Define deliverables and create tasks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-8" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ve9fjMIg6ZxbJ2UwASbJ-8">
+          <mxGeometry width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-3" value="Requirments" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ve9fjMIg6ZxbJ2UwASbJ-8">
+          <mxGeometry x="30" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-4" value="Design" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ve9fjMIg6ZxbJ2UwASbJ-8">
+          <mxGeometry x="30" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-5" value="Tests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ve9fjMIg6ZxbJ2UwASbJ-8">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-6" value="Implimentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ve9fjMIg6ZxbJ2UwASbJ-8">
+          <mxGeometry x="30" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-9" value="Begin backend with API Connections&lt;div&gt;(Sam Peacock)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-2" target="Ve9fjMIg6ZxbJ2UwASbJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-11" value="flesh out and finalize backend&lt;div&gt;(Sam Peacock)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-13" value="QE Tests of entire process&lt;div&gt;(Sam Peacock)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-15" value="Finalize Draft Frontend look&lt;div&gt;(Jacob Greenberg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-17" value="Develop Front end and Backend connection&lt;div&gt;(Jacob Greenberg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="620" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-19" value="Test Connections&lt;div&gt;(Jacob Greenberg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="630" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-21" target="Ve9fjMIg6ZxbJ2UwASbJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-21" value="Stylize Website&lt;div&gt;(Jacob Greenberg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="630" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ve9fjMIg6ZxbJ2UwASbJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-24" value="Final QE Testing of whole system&lt;div&gt;(Sam Peacock, Jacob Greenberg)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="630" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ve9fjMIg6ZxbJ2UwASbJ-26" value="Publish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="130" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
